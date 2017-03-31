@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="s2e" fetch="git://github.com/s2e/" />
+
+  <default revision="master" remote="s2e" sync-j="4" />
+
+  <project name="build-scripts">
+    <linkfile src="Dockerfile" dest="Dockerfile"/>
+    <linkfile src="Makefile" dest="Makefile"/>
+    <linkfile src="run-clang-format.sh" dest="run-clang-format.sh"/>
+    <linkfile src="lua" dest="lua"/>
+  </project>
+
+  <project name="qemu" revision="v1.0.50-se"/>
+
+  <project name="libcoroutine"/>
+  <project name="libq"/>
+  <project name="libfsigcxx" path="libfsigc++"/>
+  <project name="libtcg"/>
+  <project name="libcpu"/>
+  <project name="libvmi"/>
+  <project name="libs2e"/>
+  <project name="libs2eplugins"/>
+  <project name="libs2ecore"/>
+  <project name="klee"/>
+
+  <project name="docs"/>
+  <project name="tools"/>
+  <project name="guest-tools" path="guest"/>
+  <project name="decree"/>
+</manifest>
+
