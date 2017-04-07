@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="s2e" fetch="git://github.com/s2e/" />
+  <remote  name="s2e" fetch="." />
 
   <default revision="master" remote="s2e" sync-j="4" />
 
