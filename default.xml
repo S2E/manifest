@@ -29,5 +29,7 @@
   <project name="tools"/>
   <project name="guest-tools" path="guest"/>
   <project name="decree"/>
+
+  <project name="s2e-env"/>
 </manifest>
 
