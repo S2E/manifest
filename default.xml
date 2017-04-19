@@ -7,6 +7,7 @@
   <project name="build-scripts">
     <linkfile src="Dockerfile" dest="Dockerfile"/>
     <linkfile src="Makefile" dest="Makefile"/>
+    <linkfile src="Makefile.docker" dest="Makefile.docker"/>
     <linkfile src="run-clang-format.sh" dest="run-clang-format.sh"/>
     <linkfile src=".clang-format" dest=".clang-format"/>
     <linkfile src="lua" dest="lua"/>
