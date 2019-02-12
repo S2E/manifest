@@ -25,6 +25,7 @@
   <project name="libs2eplugins"/>
   <project name="libs2ecore"/>
   <project name="klee"/>
+  <project name="testsuite"/>
 
   <project name="docs"/>
   <project name="tools"/>
