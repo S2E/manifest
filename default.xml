@@ -18,10 +18,10 @@
   <project name="libcoroutine"/>
   <project name="libq"/>
   <project name="libfsigcxx" path="libfsigc++"/>
-  <project name="libtcg"/>
-  <project name="libcpu"/>
+  <project name="libtcg" revision="improvement/arm-support"/>
+  <project name="libcpu" revision="improvement/arm-support"/>
   <project name="libvmi"/>
-  <project name="libs2e"/>
+  <project name="libs2e" revision="improvement/arm-support"/>
   <project name="libs2eplugins"/>
   <project name="libs2ecore"/>
   <project name="klee"/>
