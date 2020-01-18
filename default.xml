@@ -12,6 +12,14 @@
   <project name="guest-images"/>
   <project name="qemu" revision="v3.0.0-se"/>
   <project name="s2e"/>
+
+  <!--
+    One would normally clone s2e-env first, then run s2e init, which would call this repo script.
+    We need to clone s2e-env a second time here so that it is possible to build the docker image.
+    TODO: think about how to remove this.
+  -->
+  <project name="s2e-env"/>
+
   <project name="s2e-linux-kernel"/>
 </manifest>
 
