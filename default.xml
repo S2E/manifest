@@ -10,7 +10,7 @@
   </project>
   <project name="decree"/>
   <project name="guest-images"/>
-  <project name="qemu" revision="stable-10.2-se"/>
+  <project name="qemu" revision="stable-11.0-se"/>
   <project name="s2e"/>
 
   <!--
